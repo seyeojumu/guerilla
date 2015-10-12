@@ -1,0 +1,26 @@
+{
+	"name": "freshcaptain-dm",
+	"host": "http://freshcaptain-dm.nytimes.corp.yahoo.com",
+	"port": 8888,
+	"db": {
+		"driver": "redis",
+		"host": "freshcaptain-dm.nytimes.corp.yahoo.com",
+		"port": 6379
+	},
+	"devices": [
+		{
+			"tag": "6",
+			"platform": "ios",
+			"name": "nyc-iphone-5c-1",
+			"identifier": "cf57a9f18449fdf5862b359ac63512a25c3b7868",
+			"OS": "8.2"
+		},
+		{
+			"tag": "8",
+                        "platform": "android",
+                        "name": "Moto G",
+			"identifier": "TA880004IB",
+			"OS": ""
+		}
+	]
+}

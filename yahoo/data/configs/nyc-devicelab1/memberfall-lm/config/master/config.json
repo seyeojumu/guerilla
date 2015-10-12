@@ -1,0 +1,50 @@
+{
+	"host": "http://freshcaptain-dm.nytimes.corp.yahoo.com",
+	"port": 7777,
+	"db": {
+		"driver": "redis",
+		"host": "freshcaptain-dm.nytimes.corp.yahoo.com",
+		"port": 6379
+	},
+	"github": {
+		"host": "git.corp.yahoo.com",
+		"token": "37d77c6675a21213566f42bce494967ad99ba14d"
+	},
+	"workers": [
+		{
+			"name": "freshcaptain-dm",
+			"host": "http://freshcaptain-dm.nytimes.corp.yahoo.com",
+			"port": 8888
+		},
+		{
+                        "name": "enterraise-dm",
+                        "host": "http://enterraise-dm.nytimes.corp.yahoo.com",
+                        "port": 8888
+                },
+                {
+                        "name": "cleanfall-dm",
+                        "host": "http://cleanfall-dm.nytimes.corp.yahoo.com",
+                        "port": 8888
+                },
+                {
+                        "name": "writtenallow-dm",
+                        "host": "http://writtenallow-dm.nytimes.corp.yahoo.com",
+                        "port": 8888
+                },
+                {
+                        "name": "writtenallow-dm vm",
+                        "host": "http://writtenallow-dm.nytimes.corp.yahoo.com",
+                        "port": 8889
+                },
+                {
+                        "name": "gentlelook-lm",
+                        "host": "http://gentlelook-lm.nytimes.corp.yahoo.com",
+                        "port": 8888
+                },
+                {
+                        "name": "gentlelook-lm vm",
+                        "host": "http://gentlelook-lm.nytimes.corp.yahoo.com",
+                        "port": 8889
+                }
+	]
+}
